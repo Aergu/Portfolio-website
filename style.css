@@ -3509,18 +3509,17 @@ input, select, textarea {
 	display: flex;
     align-items: center;     /* center header + image vertically */
     justify-content: center;
-    gap: 3em;
-
-    margin-right: 0;         /* remove offset */
+	gap: 3em;
     max-width: 75%;
     padding: 6em;
+	margin: 0 auto;
     text-align: center;
-    z-index: 1;
 		}
 
 			#IntroPage .content header {
-				margin: 0 auto;
-    			text-align: center;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 			}
 
 				#IntroPage .content header h2 {
@@ -4132,6 +4131,7 @@ input, select, textarea {
 					}
 
 	}
+
 
 
 
