@@ -48,7 +48,6 @@ body {
 
 .spotlight .image img {
 	height: 100%;
-    object-fit: contain;
 }
 
 
@@ -4141,6 +4140,7 @@ input, select, textarea {
 					}
 
 	}
+
 
 
 
