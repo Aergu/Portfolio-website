@@ -3499,7 +3499,7 @@ input, select, textarea {
 		}
 
 		#IntroPage .content {
-			display: inline-block;
+			display: flex;
 			margin-right: 1%;
 			max-width: 75%;
 			padding: 6em;
@@ -4123,6 +4123,7 @@ input, select, textarea {
 					}
 
 	}
+
 
 
 
