@@ -42,7 +42,12 @@ body {
     vertical-align: middle;
 }
 
+.spotlight .image {
+    max-height: 400px;
+}
+
 .spotlight .image img {
+	 height: 100%;
     object-fit: contain;
 }
 
@@ -4136,6 +4141,7 @@ input, select, textarea {
 					}
 
 	}
+
 
 
 
