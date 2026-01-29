@@ -3498,20 +3498,28 @@ input, select, textarea {
 			width: 100%;
 		}
 
+#IntroPage {
+    display: flex;
+    align-items: center;      /* vertical center */
+    justify-content: center;  /* horizontal center */
+    min-height: 100vh;
+}
+
 		#IntroPage .content {
-			display: flex;
-			margin-right: 10%;
-			max-width: 75%;
-			padding: 6em;
-			position: relative;
-			text-align: center;
-			vertical-align: middle;
-			z-index: 1;
+	display: flex;
+    align-items: center;     /* center header + image vertically */
+    justify-content: center;
+    gap: 3em;
+
+    margin-right: 0;         /* remove offset */
+    max-width: 75%;
+    padding: 6em;
+    text-align: center;
+    z-index: 1;
 		}
 
 			#IntroPage .content header {
-				display: inline-block;
-				vertical-align: middle;
+				 max-width: 40em;
 			}
 
 				#IntroPage .content header h2 {
@@ -3521,7 +3529,7 @@ input, select, textarea {
 
 				#IntroPage .content header p {
 					margin: 0.5em 0 0 0;
-					top: 50;
+					top: 0;
 				}
 
 			#IntroPage .content .image {
@@ -3649,9 +3657,9 @@ input, select, textarea {
 				font-size: 1em;
 			}
 
-		/* Intropage */
+		/*  */
 
-			#IntroPage .content {
+			# .content {
 				padding: 4.5em;
 			}
 
@@ -4123,6 +4131,7 @@ input, select, textarea {
 					}
 
 	}
+
 
 
 
