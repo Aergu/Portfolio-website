@@ -3501,7 +3501,7 @@ input, select, textarea {
 		#IntroPage .content {
 			display: inline-block;
 			margin-right: 1%;
-			max-width: 45%;
+			max-width: 75%;
 			padding: 6em;
 			position: relative;
 			text-align: center;
@@ -4123,6 +4123,7 @@ input, select, textarea {
 					}
 
 	}
+
 
 
 
