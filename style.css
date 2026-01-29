@@ -44,6 +44,8 @@ body {
 
 .spotlight .image {
     max-height: 200px;
+	border-radius: 12px;
+	margin-bottom: 1em;
 }
 
 .spotlight .image img {
@@ -4141,6 +4143,7 @@ input, select, textarea {
 					}
 
 	}
+
 
 
 
