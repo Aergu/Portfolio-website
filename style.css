@@ -3519,7 +3519,8 @@ input, select, textarea {
 		}
 
 			#IntroPage .content header {
-				 max-width: 40em;
+				margin: 0 auto;
+    			text-align: center;
 			}
 
 				#IntroPage .content header h2 {
@@ -4131,6 +4132,7 @@ input, select, textarea {
 					}
 
 	}
+
 
 
 
