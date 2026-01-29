@@ -3500,7 +3500,7 @@ input, select, textarea {
 
 		#IntroPage .content {
 			display: inline-block;
-			margin-top: 40%;
+			margin-top: 20%;
 			margin-right: 1%;
 			max-width: 75%;
 			padding: 6em;
@@ -4124,6 +4124,7 @@ input, select, textarea {
 					}
 
 	}
+
 
 
 
