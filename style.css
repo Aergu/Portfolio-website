@@ -47,8 +47,8 @@ body {
 }
 
 .spotlight .image img {
-	height: 50%;
-	width: 20%;
+	height: 100%;
+	width: 1%;
 }
 
 
@@ -4141,6 +4141,7 @@ input, select, textarea {
 					}
 
 	}
+
 
 
 
