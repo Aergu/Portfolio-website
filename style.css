@@ -3521,7 +3521,7 @@ input, select, textarea {
 
 				#IntroPage .content header p {
 					margin: 0.5em 0 0 0;
-					top: 0;
+					top: 50;
 				}
 
 			#IntroPage .content .image {
@@ -4123,6 +4123,7 @@ input, select, textarea {
 					}
 
 	}
+
 
 
 
